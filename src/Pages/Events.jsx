@@ -98,16 +98,13 @@ function Events() {
       icon: `<i class="bi bi-tools"></i>`,
       bgImage: imageSet1.yellow,
       color: "rgb(255, 247, 0)",
-      desc: "Are you ready to put your circuit design skills to the test? Wire Wizards challenges participants to analyze, debug, and optimize electronic circuits for efficiency and accuracy.",
+      desc: "Are you ready to put your circuit design skills to the test? Wire Wizards is a high-energy event where participants will tackle electronics challenges, debugging and designing circuits. Whether you are a beginner or an expert, this event will push your problem-solving abilities and creativity to the limit!",
       rules: [
-        "Maximum of 3 participants per team.",
-        "Participants should have a basic understanding of circuit design and debugging.",
-        "Tools and materials will be provided on-site.",
-        "Judging is based on accuracy, efficiency, and creativity in solving the challenges."
+        "Individual participation only allowed",
       ],
       rounds: [
-        "Round 1: Circuit Analysis - Identify errors in given circuits.",
-        "Round 2: Debugging & Optimization - Fix the errors and optimize for better performance."
+        "Round 1: Circuit Quiz – Participants should answer multiple-choice and conceptual questions on circuit theory, components, and troubleshooting.",
+        "Round 2: Debugging Challenging – Identify and fix errors in a faulty circuit within a given time"
       ],
       submission :[]
     },
