@@ -61,11 +61,11 @@ function Events() {
       icon: `<i class="bi bi-filetype-ppt"></i>`,
       bgImage: imageSet1.green,
       color: "rgba(0, 255, 8, 0.93)",
-      desc: "This event invites participants to present innovative ideas, cutting-edge research, and thought-provoking perspectives in Advanced Technologies in the ECE Domain. Whether you are a student, researcher, or aspiring professional, TechFrontiers provides a platform to challenge norms, inspire change, and showcase your expertise.",
+      desc: "This event invites participants to present innovative ideas, cutting-edge research, and thought-provoking perspectives in Advanced Technologies in the ECE Domain. Whether you are a student, researcher, or aspiring professional, TechFrontiers provides a platform to challenge norms, inspire change, and showcase your expertise",
       rules: [
-        "Choose a topic from Advanced Technologies in the ECE Domain.",
-        "Individual or team (max 3 members).",
-        "8-10 slides, 5 minutes.",
+        "Topics : Artificial intelligence, Machine learning, Bio medical Electronics",
+        "8-10 slides,4-5 minutes.",
+        "Individual or duo.",
         "Formal speech in English.",
         "No plagiarism.",
         "Judges’ decision is final.",
@@ -73,7 +73,7 @@ function Events() {
       ],
       rounds: [],
       submission :["To participate, please submit a one-page abstract of your paper to compcom202125@gmail.com",
-        "The email should contain the college name, participants name, their contact details, project title and abstract."
+        "The email should contain the contact details of the participants. Shortlisted participants will be invited to present their work during the event on Day 1 of COMPCOM."
       ]
     },
     { 
