@@ -37,28 +37,37 @@ function Register() {
       id: 2,
       planType: "Basic Plan",
       members: 1,
+      content: "A single person can attend 1 workshop ",
+      price: "149/-",
+      link: "https://forms.gle/GqT8LErbfBC7BFTM8",
+      color: colors[3],
+    },
+    {
+      id: 3,
+      planType: "Pro Plan",
+      members: 1,
       content: "A single person can join all tech and non-tech events + 1 workshop.",
       price: "399/-",
       link: "https://forms.gle/wfqZW3DhZk9PCZxU7",
       color: colors[1],
     },
     {
-      id: 3,
-      planType: "Pro Plan",
-      members: "4+1",
-      content: "4+1 members can join all tech & non-tech events at 4 members' cost.",
-      price: "999/-",
-      link: "https://forms.gle/gdnfz5KzPS4Peowa8",
-      color: colors[2],
-    },
-    {
       id: 4,
-      planType: "Enterprise Plan",
+      planType: "Expert Plan",
       members: 3,
       content: "3 members can join all tech & non-tech events + 1 workshop.",
       price: "999/-",
       link: "https://forms.gle/sch1YPuTQR462HEW8",
       color: colors[4],
+    },
+    {
+      id: 5,
+      planType: "Elite Plan",
+      members: "4+1",
+      content: "4+1 members can join all tech & non-tech events at 4 members' cost.",
+      price: "999/-",
+      link: "https://forms.gle/gdnfz5KzPS4Peowa8",
+      color: colors[2],
     },
   ];
 
@@ -74,7 +83,7 @@ function Register() {
         }
         
       </div>
-      <p className='description' style={{ marginTop: '20px' }}>Select the right plan and complete the form. Offline registration is available for Tech and Non-Tech events at 299/- and Workshops at 449/-. For exclusive offers and bulk participation discounts, contact us.</p>
+      <p className='description' style={{ marginTop: '20px' }}>Select the right plan and complete the form. Offline registration is available for Tech and Non-Tech events at ₹299, Workshops at ₹200, and both Tech/Non-Tech events and Workshops at ₹449. For exclusive offers and bulk participation discounts, contact us.</p>
 
     </div>
   )
